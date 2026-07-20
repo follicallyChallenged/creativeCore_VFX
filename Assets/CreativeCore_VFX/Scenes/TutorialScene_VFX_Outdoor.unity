@@ -483,9 +483,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 66353336, guid: 37a55db759a372345884f6fbcefab66b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100508424553830606, guid: 37a55db759a372345884f6fbcefab66b, type: 3}
       propertyPath: m_Name
       value: Firepit
+      objectReference: {fileID: 0}
+    - target: {fileID: 100508424553830606, guid: 37a55db759a372345884f6fbcefab66b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3979068687142069484, guid: 37a55db759a372345884f6fbcefab66b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4485022684902255258, guid: 37a55db759a372345884f6fbcefab66b, type: 3}
       propertyPath: m_RootOrder
@@ -562,6 +574,14 @@ PrefabInstance:
     - target: {fileID: 6259215252249475648, guid: 37a55db759a372345884f6fbcefab66b, type: 3}
       propertyPath: EmissionModule.rateOverDistance.scalar
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7331514416009967212, guid: 37a55db759a372345884f6fbcefab66b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9167192332459461374, guid: 37a55db759a372345884f6fbcefab66b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1078,6 +1098,10 @@ PrefabInstance:
     - target: {fileID: 8898738096157680266, guid: 30b393521d63aaa4595b7a2468dc1b48, type: 3}
       propertyPath: m_Name
       value: FX-snow
+      objectReference: {fileID: 0}
+    - target: {fileID: 8898738096157680266, guid: 30b393521d63aaa4595b7a2468dc1b48, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1720,6 +1744,10 @@ PrefabInstance:
     - target: {fileID: 100508424553830606, guid: 37a55db759a372345884f6fbcefab66b, type: 3}
       propertyPath: m_Name
       value: Firepit_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100508424553830606, guid: 37a55db759a372345884f6fbcefab66b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4007326277401868158, guid: 37a55db759a372345884f6fbcefab66b, type: 3}
       propertyPath: m_LocalPosition.x
