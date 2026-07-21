@@ -236,6 +236,63 @@ ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 5583941062426456824, guid: 52009926f4901084f8f29c53c8c6b064, type: 3}
   m_PrefabInstance: {fileID: 5329574383491244349}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &55487851
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 134138862138652606, guid: 445582fe6d8e62c489e27d1dc38217e2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 134138862138652606, guid: 445582fe6d8e62c489e27d1dc38217e2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 17.873728
+      objectReference: {fileID: 0}
+    - target: {fileID: 134138862138652606, guid: 445582fe6d8e62c489e27d1dc38217e2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 134138862138652606, guid: 445582fe6d8e62c489e27d1dc38217e2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 134138862138652606, guid: 445582fe6d8e62c489e27d1dc38217e2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 134138862138652606, guid: 445582fe6d8e62c489e27d1dc38217e2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 134138862138652606, guid: 445582fe6d8e62c489e27d1dc38217e2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 134138862138652606, guid: 445582fe6d8e62c489e27d1dc38217e2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 134138862138652606, guid: 445582fe6d8e62c489e27d1dc38217e2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 134138862138652606, guid: 445582fe6d8e62c489e27d1dc38217e2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1540842565675349634, guid: 445582fe6d8e62c489e27d1dc38217e2, type: 3}
+      propertyPath: m_Name
+      value: Rain_VFXGraph_Prefab
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 445582fe6d8e62c489e27d1dc38217e2, type: 3}
 --- !u!1 &63741182
 GameObject:
   m_ObjectHideFlags: 0
@@ -279,6 +336,14 @@ PrefabInstance:
     - target: {fileID: 2565005424086179768, guid: 39bcaf538f9376945b4872c5fb70a956, type: 3}
       propertyPath: m_Name
       value: Fireflies_VFXGraph_Prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 2565005424086179768, guid: 39bcaf538f9376945b4872c5fb70a956, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2565005424086179769, guid: 39bcaf538f9376945b4872c5fb70a956, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2565005424086179771, guid: 39bcaf538f9376945b4872c5fb70a956, type: 3}
       propertyPath: m_LocalScale.x
@@ -4505,3 +4570,4 @@ SceneRoots:
   - {fileID: 5329574383491244349}
   - {fileID: 421947257}
   - {fileID: 71039059}
+  - {fileID: 55487851}
